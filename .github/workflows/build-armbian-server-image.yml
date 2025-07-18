@@ -185,7 +185,7 @@ on:
       armbian_kernel:
         description: "Select kernel version."
         required: false
-        default: "6.1.99_6.1.160"
+        default: "6.1.99_6.1.115_6.1.115-rk35xx-flippy-2506a_5.10.160_5.10.160-rk35xx-flippy-2412a"
         type: choice
         options:
           - 5.4.y
