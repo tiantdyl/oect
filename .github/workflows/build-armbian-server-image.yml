@@ -185,7 +185,7 @@ on:
       armbian_kernel:
         description: "Select kernel version."
         required: false
-        default: "6.1.99_6.1.115_6.1.115-rk35xx-flippy-2506a_5.10.160_5.10.160-rk35xx-flippy-2412a"
+        default: "6.1.115"
         type: choice
         options:
           - 5.4.y
@@ -199,7 +199,7 @@ on:
           - 6.1.y_6.12.y
           - 6.1.y_6.6.y
           - 6.6.y_6.12.y
-          - 6.1.99_6.1.115_6.1.115-rk35xx-flippy-2506a_5.10.160_5.10.160-rk35xx-flippy-2412a
+          - 6.1.115
       auto_kernel:
         description: "Auto use the latest kernel."
         required: false
