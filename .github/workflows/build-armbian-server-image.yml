@@ -185,7 +185,7 @@ on:
       armbian_kernel:
         description: "Select kernel version."
         required: false
-        default: "6.1.115"
+        default: "6.1.y"
         type: choice
         options:
           - 5.4.y
@@ -199,11 +199,10 @@ on:
           - 6.1.y_6.12.y
           - 6.1.y_6.6.y
           - 6.6.y_6.12.y
-          - 6.1.115
       auto_kernel:
         description: "Auto use the latest kernel."
         required: false
-        default: false
+        default: true
         type: boolean
       kernel_repo:
         description: "Set the kernel repository."
